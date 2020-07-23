@@ -1,0 +1,120 @@
+.text-display {
+text-decoration: none;
+color:gray;
+}
+.text-display:hover {
+text-decoration: none;
+}
+.text-dec{
+font-weight:bold;
+color:black;
+}
+.text-dec:hover {
+text-decoration: none;
+color:black;
+}
+.card-img-top:hover{
+opacity:0.5;
+}
+#section {
+margin-top:50px;
+}
+#btn {
+border: none;
+color: white;
+padding: 2px 7px;
+font-size: 14px;
+cursor: pointer;
+color:black;
+}
+#btn:hover {
+background-color: RoyalBlue;
+}
+* {
+box-sizing: border-box;
+}
+.section {
+margin-top:50px;
+}
+.heading{
+font-weight:bold;
+font-size:15px;
+color:light-gray;
+}
+.heading1{
+font-size:15px;
+}
+.sub-heading{
+color:light-gray;
+font-size:12px;
+}
+.column {
+float: left;
+width: 50%;
+padding: 10px;
+}
+.section .row:after {
+content: "";
+display: table;
+clear: both;
+}
+.dark-header {
+color:black;
+}
+audio{
+width: 100%;
+}
+.background{
+background-image: url(../Images/adam-marcucci-568023-unsplash.png);   
+opacity:0.8;
+height: 600px; 
+background-repeat: no-repeat;
+background-size:cover;
+color:black; 
+}
+.upper {
+margin-top:20px;
+}
+.btn-round-lg{
+border-radius: 22.5px;
+}
+.btn-round{
+border-radius: 17px;
+}
+.btn-round-sm{
+border-radius: 15px;
+}
+.btn-round-xs{
+border-radius: 11px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.border-space{
+padding-top:40px;
+padding-bottom:170px;
+}
+@media only screen and (max-width: 768px) {
+.align1{
+margin-top:15px;
+}
+}
+@media only screen and (max-width: 600px) {
+.border-space{
+padding-bottom:50px;
+}
+.content .col-sm-3{
+padding-top:10px;
+}
+.image-grid .col-sm {
+margin-bottom: 20px;
+}
+.column {
+width: 100%;
+}
+.text-column{
+text-align:center;
+}
+.section {
+margin-top:15px;
+}
+}
